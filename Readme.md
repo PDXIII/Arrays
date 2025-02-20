@@ -6,7 +6,9 @@
 🔹 **Zugriff und Manipulation**: Wie kann man Werte auslesen, verändern oder hinzufügen?  
 🔹 **Arbeiten mit mehrdimensionalen Arrays**  
 🔹 **Arrays aus Objekten verwenden**  
-🔹 **Effiziente Nutzung und Methoden für Arrays** (`push()`, `pop()`, `map()`, `filter()`, `forEach()`, Vergleich `for` vs. `forEach`)  
+🔹 **Effiziente Nutzung und Methoden für Arrays** (`push()`, `pop()`, `map()`, `filter()`, `forEach()`, Vergleich `for` vs. `forEach`) 
+
+[Dokumentation auf MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ---
 
