@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays Basic</title>
+</head>
+<body>
+
+    <h1>Arrays Basic</h1>
+
+    <p>
+        Bitte erstelle einen Array mit 3 Tiernamen.
+        Gib den gesamten Array in der Konsole aus.
+        Gib den Namen Deines Lieblingstieres in der Konsole aus.
+    </p>
+    <p>
+        Arrays sind Datenstrukturen die mehrere Werte speichern kann.
+        Dabei kann es sich um homogene, sowie um heterogene Daten handeln.
+    </p>
+    <p>
+        In Arrays könne wir Zahlen, Strings, Objekte, weitere Arrays, Funktionen und Booleans speichern.
+    </p>
+    <p>
+        Um an ein Element zu gelangen benutzen wir den Index myArray[i].
+        Wenn ich eine Funktion innerhalb eines Arrays aufrufen möchte, dann mit Klammern 
+        myArray[i]().  
+    </p>
+    <p>
+        Wenn ich eine Element aus einem verschachtelten Array erhalten möchte, dann benötige ich zwei indixes myArray[i][j].
+    </p>
+        
+    <script>
+        // let zahlen = [1, 2, 3, 4, 5];
+        // console.log(zahlen);
+
+        // zahlen[2] = 10;
+
+        // console.log(zahlen);
+
+        // console.log(zahlen[0]);
+        
+        // for (let i = 0; i < zahlen.length; i++) {
+            //     console.log(zahlen[i]);
+            // }
+            
+            
+        // let cities = ["Berlin", "Hamburg", "Braunschweig", "Karlsruhe"];
+        // console.log(cities);
+
+        // bitte ersetzt Braunschweig durch Hannover
+
+        // cities[2] = "Hannover";
+
+        // cities.push("Hannover"); 
+
+        // console.log(cities); // push fügt eine Element dem Array am Ende hinzu
+
+        // cities.unshift("Aachen");
+
+        // console.log(cities); // unshift fügt eine Element dem Array am Anfang hinzu
+
+        // cities.shift();
+
+        // console.log(cities); // shift entfernt das erste Element aus dem Array
+
+        // cities.pop();
+
+        // console.log(cities); // pop entfernt das letzte Element aus dem Array
+
+
+        // console.log(cities[2], cities[1]);
+
+        // let mixed = ["Pete", 25, ["kind 1", "kind2", "kind3"], function() { return "Hallo, Leute!"}, true, {tier: "Hund", name: "Cosmo", alter: "8"}];
+
+        // console.log(mixed[3]());
+
+        // let zweiDimensional = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+        // {name: "Pete", alter: 25, stadt: "Berlin"} // nicht so!!!
+
+        // Erstellt einen zweidimensionalen Array mit drei Personen. Bitte Benutzt keine Objekte.
+
+        // console.log(zweiDimensional[1][1]);
+
+        
+        // let leute = [["Pete", 25, "Berlin"], ["Bob", 35, "Hamburg"], ["Joe", 45, "Braunschweig"]];
+        // let ahoi = "ahoi";
+        
+        // console.log(leute.length);
+
+        // for (let i = 0; i < leute.length; i++) {
+        //     for (let j = 0; j < leute[i].length; j++) {
+        //         console.log(leute[i][j]);
+        //     }        
+        // }
+        
+        // console.log(ahoi);
+
+        let bierkasten = [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18], [19, 20, 21, 22, 23, 24] ];
+
+        for (let sixpack = 0; sixpack < bierkasten.length; sixpack++) { 
+            console.log("sixpack: ", sixpack);
+            for (let flasche = 0; flasche < bierkasten[sixpack].length; flasche++) {
+                console.log("flasche: ", bierkasten[sixpack][flasche]);
+            }
+        }
+    </script>
+</body>
+</html>
